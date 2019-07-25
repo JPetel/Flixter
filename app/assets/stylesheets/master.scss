@@ -1,6 +1,10 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
 .navbar {
   border-spacing: 0;
   background: image_url('white-waves.png');
@@ -9,3 +13,33 @@
   font-weight: 200;
 }
 
+.hero {
+ background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.frosty {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.frosty h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
+}
