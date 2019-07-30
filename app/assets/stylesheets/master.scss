@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   padding-bottom: 20px;
+
+}
+
+.color-nav {
+  color: black;
 }
 
 .hero {
@@ -55,7 +60,6 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
   background: image_url('memphis-mini-dark.png');
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-
 }
 
 .booyah-box {
@@ -72,8 +76,17 @@ body {
   margin: 10px;
 }
 
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+  margin: 10px;
+}
 
-
+.clr {
+  clear: both;
+}
 
 
 
