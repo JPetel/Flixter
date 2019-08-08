@@ -9,7 +9,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+
 <div class="flex-content-container">
   <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +42,11 @@
     </ul>
   </div>
 </nav>
-           
-        
+
+
+
+  <body>
+  
 
     <% if notice.present? %>
        <p class="alert alert-info"><%= notice %></p>
@@ -57,7 +60,8 @@
     <%= yield %>
 
 
-</div>
+</body>
+
 
 <div id="footer">
   <div class="container">
@@ -65,13 +69,13 @@
     <br />
     <%= link_to 'Teach a Course', new_instructor_course_path %>
   </div>
+</div>
 
 
 
 
 
 
-  </body>
 </html>
 
 

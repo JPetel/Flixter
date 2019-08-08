@@ -5,6 +5,7 @@ class Instructor::LessonsController < ApplicationController
 
   def new
     @lesson = Lesson.new
+    @section = current_section
   end
 
   def create
