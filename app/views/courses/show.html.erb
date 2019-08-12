@@ -1,7 +1,9 @@
+<br />
 
 <div class="booyah-box col-10 offset-1">
   <br class="clr">
     <h1><%= @course.title %></h1>
+    
   <br />
     <div class="row">
       <div class="col-sm-4 col-12 text-center">
@@ -15,15 +17,14 @@
   <br />
   <br />
 
-  <div class= "col-sm-4 col-12">
+  <div class= "col-sm-8 col-12">
     <%= @course.description %>
   </div>
   </div>`
 
   <br />
 
- <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
-  <% end %>
+
 </br>
 
  <div class="col-12">
@@ -43,3 +44,9 @@
     <% end %>
   </div>
 </div>
+
+<br />
+<br />
+
+ <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
+  <% end %>
