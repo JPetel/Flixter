@@ -80,5 +80,6 @@ gem "figaro"
 
 gem "fog-aws"
 
+gem 'mini_magick'
 
 
