@@ -17,7 +17,7 @@ class Instructor::LessonsController < ApplicationController
 
   def require_authorized_for_current_section
     if current_section.course.user != current_user
-      return render plain: 'Unauthorized', status: :unauthorized
+      redirect_to course_path(current_lesson.section.course), alert: 'Unauthorized'
     end
   end
 
