@@ -16,6 +16,7 @@ def create
 end
 
 def show
+  @section = Section.new
 end
 
 
