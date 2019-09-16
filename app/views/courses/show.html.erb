@@ -50,14 +50,14 @@
   </br>
 
  <div class="col-12">
-  <% @course.sections.each do |section| %>
+  <% @course.sections.rank(:row_order).each do |section| %>
   <br /><br />
     <div class="section">
       <h3>
         <%= section.title %>
       </h3>
       <div class="row">
-        <ul class="lessons">
+
         <% section.lessons.rank(:row_order).each do |lesson| %>
           <div class="col-12 col-sm-6">
             <div class="lesson text-center">
